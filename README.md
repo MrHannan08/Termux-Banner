@@ -126,7 +126,7 @@ ls
 The repository should contain files such as:
 
 ```text
-Install.sh
+install.sh
 Uninstall.sh
 README.md
 ```
@@ -136,7 +136,7 @@ README.md
 ## 6. Give Permission to the Installer
 
 ```bash
-chmod +x Install.sh
+chmod +x install.sh
 ```
 
 ---
@@ -144,20 +144,20 @@ chmod +x Install.sh
 ## 7. Run the Installer
 
 ```bash
-bash Install.sh
+bash install.sh
 ```
 
 You can also run:
 
 ```bash
-./Install.sh
+./install.sh
 ```
 
 ---
 
 # ⚙️ Interactive Setup
 
-When `Install.sh` starts, it asks for your personal information.
+When `install.sh` starts, it asks for your personal information.
 
 ## 👤 1. Your Name
 
